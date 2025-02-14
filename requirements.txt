@@ -1,0 +1,4 @@
+Pillow
+stepic
+cryptography
+colorama
