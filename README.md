@@ -15,20 +15,16 @@ SteganoGuard is a secure image steganography tool that uses robust RSA (4096-bit
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Clone the repository and run tool:**
 
    ```bash
+   # Clone the repository and run the tool
    git clone https://github.com/bountyboy0/SteganoGuard.git
    cd SteganoGuard
+   pip install -r requirements.txt
+   python3 steganography.py
 
-Install dependencies:
-pip install -r requirements.txt
-
-Run the tool:
-python3 steganography.py 
-
-
-Usage
+## Usage
 After running the tool, you will be prompted with three options:
 
 Generate RSA Key Pair: Create a secure 4096-bit RSA key pair.
@@ -36,16 +32,15 @@ Encode Message: Encrypt and embed a message into an image.
 Decode Message: Extract and decrypt the hidden message from an image.
 Follow the on-screen instructions to use the desired feature.
 
-Requirements
+## Requirements
 Python 3.x
 Pillow
 stepic
 cryptography
-colorama
-License
+colorama 
 
+## License
 This project is licensed under the MIT License.
 
-Author
-AJ
+
 
